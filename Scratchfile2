@@ -1,0 +1,10 @@
+name = input('Please Enter Your Name ') ##this line isa variable with an input function
+jobTitle = input('Please Enter Your Job Title ') ##this line isa variable with an input function
+salary = str(input("Please Enter Salary ")) ##this line isa variable with an input function but this must be an integer
+tax = float(.6)
+taxRate = float(salary) / tax
+
+print('Hello ' + name + " let's figure out how much you pay in taxes!") ##this is a print function which should print a string of text along with the variable name
+
+
+print('Hello ' + name + ', It looks like you pay ' + taxRate + ' In taxes!') ##this is another print function which prints a string of not only text but multiple variables as well.
